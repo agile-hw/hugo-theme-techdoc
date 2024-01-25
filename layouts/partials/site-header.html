@@ -6,6 +6,10 @@
 {{- with .Site.Params.github_repository -}}
 <a href="{{ . }}" class="github"><i class="fab fa-github"></i></a>
 {{- end -}}
+{{- with .Site.Params.alter_logo -}}
+<img src="{{ . }}" alt="logo" style="width:120px;float:right"/>
+</a>
+{{- end -}}
 {{ with .Site.Params.description }}
 <p class="description">{{ . }}</p>
 {{end}}
