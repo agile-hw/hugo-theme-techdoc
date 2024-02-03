@@ -7,7 +7,7 @@
 <a href="{{ . }}" class="github"><i class="fab fa-github"></i></a>
 {{- end -}}
 {{- with .Site.Params.alter_logo -}}
-<img src="{{ . }}" alt="logo" style="width:120px;float:right"/>
+<img src="{{ absURL . }}" alt="logo" style="width:120px;float:right"/>
 </a>
 {{- end -}}
 {{ with .Site.Params.description }}
