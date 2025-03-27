@@ -1,5 +1,5 @@
 ---
-title: "Build-in Shortcodes"
+title: "Built-in Shortcodes"
 date: 2017-10-17T15:26:15Z
 draft: false
 weight: 10
@@ -32,7 +32,7 @@ See https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcod
 
 ## tweet
 
-{{< tweet 877500564405444608 >}}
+{{< tweet id="877500564405444608" user="GoHugoIO" >}}
 
 ## vimeo
 {{< vimeo 146022717 >}}
